@@ -11,12 +11,10 @@ int main(){
         if(s[i] == ' '){
             continue;
         }
-        else if (s[i]=='    '){
-            continue;
-        }
+       
         else{
             c++;
         }
     }
-    cout<<c;
+    cout<<"Character Count = " <<c;
 }

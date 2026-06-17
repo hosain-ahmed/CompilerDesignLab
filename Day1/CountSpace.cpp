@@ -13,5 +13,5 @@ int main(){
         }
        
     }
-    cout<<c;
+    cout<<"Spaces = "<<c;
 }

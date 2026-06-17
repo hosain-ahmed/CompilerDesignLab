@@ -23,5 +23,5 @@ int main(){
             c++;
         }
     }
-    cout<<v<<" " <<c<<" "<<d;
+    cout<<"Vowels = "<<v<<",Consonants = "<<c<<",Digits = "<<d<<endl;
 }

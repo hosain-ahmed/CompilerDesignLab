@@ -4,7 +4,6 @@ using namespace std;
 int main(){
     string s;
     
-
     int c = 0 ;
 
     while(true){
@@ -16,7 +15,6 @@ int main(){
             c++;
         }
     }
-    
-   
-    cout<<c;
+
+    cout<<"Total Lines = "<<c;
 }

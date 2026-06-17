@@ -19,6 +19,7 @@ int main(){
             words.push_back(text[i]);
 
         }}
+        words.push_back(' ');
     }
 
     for(char ch : words){

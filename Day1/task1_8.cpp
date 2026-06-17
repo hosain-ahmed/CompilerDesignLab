@@ -11,7 +11,7 @@ int main(){
 
     for(int i = 0 ; i < text.length()-1 ; i++){
 
-        if(text[i] == ' '){
+        if(text[i] == ' ' || text[i] =='-'){
             result += text[i+1];
         }
 
